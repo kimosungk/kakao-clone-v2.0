@@ -13,7 +13,7 @@
 .chat-screen {
   background-image: url("../images/chatBg.png");
 
-  min-height: 1000vh;
+  min-height: 100vh;
 }
 
 .chat__write {
@@ -37,7 +37,7 @@
 }
 
 .chat__write-column:nth-child(2) {
-  width: 80%;
+  width: 70%;
 }
 
 .chat__write-column input {
