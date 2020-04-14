@@ -5,34 +5,34 @@
   width: 100%;
   bottom: 0px; /* 박스 바깥 아래쪽 마진 설정 */
   left: 0px; /* 박스 바깥 왼쪽 마진 설정 */
-  padding: 20px 50px; 박스 안쪽 마진 설정 (위아래, 양옆)
+  padding: 20px 50px; /*박스 안쪽 마진 설정 (위아래, 양옆) */
   box-sizing: border-box;
 }
 
-.nav .nav__list{
-    display:flex;
-    justify-content: space-between;
+.nav .nav__list {
+  display: flex;
+  justify-content: space-between;
 }
 
-.nav i{
-    font-size: 20px
+.nav i {
+  font-size: 20px;
 }
 
-.nav .nav__list-link{
-    position: relative;
+.nav .nav__list-link {
+  position: relative;
 }
 
-.nav .nav__badge{
-    position: absolute;
-    font-size:12px;
-    top:-9px;
-    right:-9px;
-    width: 20px;
-    height: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius:50%;
-    background-color: #dc5d46;
-    color: white
+.nav .nav__badge {
+  position: absolute;
+  font-size: 12px;
+  top: -9px;
+  right: -9px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #dc5d46;
+  color: white;
 }
