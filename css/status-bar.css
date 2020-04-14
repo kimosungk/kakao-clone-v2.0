@@ -1,0 +1,27 @@
+.status-bar {
+  position: fixed;
+  width: 100%;
+  left: 0%;
+  top: 0%;
+  padding: 10px 20px;
+  z-index: 999;
+
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  /* justify-content 속성은 진행축 정렬과 아이템 사이의 간격을 제어
+  flex-dirction: row | row-reverse인 경우 x축 정렬을 제어
+  flex-direction: column | column-reverse 인 경우 y축 정렬을 제어
+  - space-between: flex item과 flex container 경계면 사이에 빈 공간을 만들지 않고 flem item이 균등 분할됨, 필요시 margin 추가*/
+
+  color: #656565;
+}
+
+.status-bar i {
+  font-size: 14px;
+  padding-right: 2px;
+}
+
+.status-bar .status-bar__battery-level {
+  margin-left: 3px;
+}

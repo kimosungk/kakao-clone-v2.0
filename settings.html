@@ -8,14 +8,14 @@
       src="https://kit.fontawesome.com/fa27fef902.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Settings | Kakao Clone</title>
   </head>
   <body>
-    
     <!--Status Bar-->
     <div class="status-bar">
       <div class="status-bar__column">
-        <span class="satus-bar__clock">13:54</span>
+        <span class="status-bar__clock">13:54</span>
       </div>
       <div class="status-bar__column">
         <i class="fas fa-clock"></i>
@@ -28,43 +28,66 @@
 
     <!-- Header-->
     <header class="header">
-        <div class="header__header-column"></div>
-            <a href="more.html" class = "header__back">
-                <i class="fas fa-arrow-left fa-2x"></i>
-            </a>
-            <h1 class="header__title">Settings</h1>
-        </div>
-        <div class="header__header-column">
-            <span class="header__icon">
-                <i class="fas fa-search"></i>
-            </span>                
-        </div>
+      <div class="header__header-column">
+        <a href="more.html" class="header__back-btn">
+          <i class="fas fa-arrow-left"></i>
+        </a>
+        <h1 class="header__title">Settings</h1>
+      </div>
+      <div class="header__header-column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+      </div>
     </header>
     <main class="settings">
-        <section class="settings_section">
-            <ul class="settings__list">
-                <li class="settings__setting">
-                    <span class="settings__icon">
-                        <i class="fas fa-lock"></i>
-                    </span>
-                    <span class="settings_title">Privacy</span>
-                </li>
-                <li class="settings__setting">
-                    <span class="settings__icon">
-                        <i class="fas fa-bell"></i>
-                    </span>
-                    <span class="settings_title">Notifications</span>
-                </li>
-                <li class="settings__setting">
-                    <span class="settings__icon">
-                        <i class="fas fa-user"></i>
-                    </span>
-                    <span class="settings_title">Friends</span>
-                </li>
-            </ul>
-        </section>
+      <section class="settings_section">
+        <ul class="settings__list">
+          <li class="settings__setting">
+            <span class="settings__icon">
+              <i class="fas fa-lock"></i>
+            </span>
+            <span class="settings_title">Notices</span>
+          </li>
+          <li class="settings__setting">
+            <span class="settings__icon">
+              <i class="fas fa-bell"></i>
+            </span>
+            <span class="settings_title">Kakao Lab</span>
+          </li>
+          <li class="settings__setting">
+            <span class="settings__icon">
+              <i class="fas fa-user"></i>
+            </span>
+            <span class="settings_title">Version</span>
+          </li>
+        </ul>
+      </section>
+      <section class="settings_section">
+        <ul class="settings__list">
+          <li class="settings__setting">
+            <span class="settings__icon">
+              <i class="fas fa-lock"></i>
+            </span>
+            <span class="settings_title">Privacy</span>
+          </li>
+          <li class="settings__setting">
+            <span class="settings__icon">
+              <i class="fas fa-bell"></i>
+            </span>
+            <span class="settings_title">Notifications</span>
+          </li>
+          <li class="settings__setting">
+            <span class="settings__icon">
+              <i class="fas fa-user"></i>
+            </span>
+            <span class="settings_title">Friends</span>
+          </li>
+        </ul>
+      </section>
     </main>
-    
-
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small</span>
+    </div>
   </body>
 </html>
